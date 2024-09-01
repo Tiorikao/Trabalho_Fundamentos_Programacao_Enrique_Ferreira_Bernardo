@@ -1,0 +1,72 @@
+/* index.css */
+
+/* Define o estilo global para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fundo cinza claro */
+}
+
+/* Estilo da barra de navegação */
+nav {
+    background-color: #000; /* Barra de fundo preta */
+    display: flex;
+    justify-content: center; /* Centraliza os links horizontalmente */
+    padding: 10px 0; /* Espaçamento interno da barra */
+    position: fixed; /* Fixa a barra no topo */
+    width: 100%;
+    top: 0;
+}
+
+/* Estilo dos links na barra de navegação */
+nav a {
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 15px; /* Espaçamento entre os links */
+    padding: 8px 16px; /* Espaçamento interno dos links */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+/* Estilo para o efeito hover nos links */
+nav a:hover {
+    background-color: #444; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Arredonda os cantos do fundo ao passar o mouse */
+}
+
+/* Ajusta o conteúdo da página para não ficar embaixo da barra de navegação */
+main {
+    padding-top: 60px; /* Compensa a altura da barra de navegação */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo dos títulos */
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin: 10px 0;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos parágrafos */
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
